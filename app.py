@@ -9,7 +9,7 @@ application = Flask(__name__) ## The __name__ will give us the entry point where
 
 app = application
 
-## Route for a home pageas
+## Route for a home page
 
 @app.route('/')
 def index():
